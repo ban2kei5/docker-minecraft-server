@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server
+    image: ban2kei5/minecraft-server
     environment:
       EULA: "true"
     ports:
@@ -11,4 +11,5 @@ services:
     tty: true
     restart: unless-stopped
 volumes:
+
   data: {}
